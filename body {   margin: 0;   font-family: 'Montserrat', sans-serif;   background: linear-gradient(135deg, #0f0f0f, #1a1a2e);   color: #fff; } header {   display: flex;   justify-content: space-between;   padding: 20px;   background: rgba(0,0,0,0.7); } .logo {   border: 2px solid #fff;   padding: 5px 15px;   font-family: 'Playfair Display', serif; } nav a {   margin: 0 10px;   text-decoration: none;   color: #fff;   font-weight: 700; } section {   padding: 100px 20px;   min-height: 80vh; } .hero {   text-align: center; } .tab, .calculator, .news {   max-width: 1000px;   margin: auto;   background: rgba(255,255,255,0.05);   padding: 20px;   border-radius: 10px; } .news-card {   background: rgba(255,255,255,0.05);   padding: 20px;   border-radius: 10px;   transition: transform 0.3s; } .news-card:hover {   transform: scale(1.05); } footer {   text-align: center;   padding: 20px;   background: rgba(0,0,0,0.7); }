@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+  color: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+}
+.logo {
+  border: 2px solid #fff;
+  padding: 5px 15px;
+  font-family: 'Playfair Display', serif;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+section {
+  padding: 100px 20px;
+  min-height: 80vh;
+}
+.hero {
+  text-align: center;
+}
+.tab, .calculator, .news {
+  max-width: 1000px;
+  margin: auto;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+.news-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.news-card:hover {
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+}
